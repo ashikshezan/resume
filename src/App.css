@@ -15,7 +15,7 @@ body {
 }
 
 .pdf-container {
-	margin-top: 30px;
+	/* margin-top: 30px; */
 	width: 900px;
 	margin-inline: auto;
 	-webkit-box-shadow: 0px 10px 13px -7px #000000, 6px 7px 21px 5px rgba(0,0,0,0.44); 
@@ -23,6 +23,33 @@ body {
 }
 
 .container {
+	margin-top: 20px;
+	max-width: 900px;
 	margin-inline: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+ a {
+	text-decoration: none;
+	color: inherit;
+	font-family: Roboto, sans-serif;
+	font-size: 12px;
+	/* margin: ; */
+}
+.container nav {
+	padding-block: 5px;
+	display: flex;
+	justify-content: end;
+}
+.container nav div{
+	font-size: px;
+	padding-inline: 20px;
+	padding-block: 2px;
+	display: flex;
+	background-color: #2f3b44;
+	color: #fff;
+	border-radius: 5px;
 
 }
