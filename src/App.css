@@ -10,3 +10,19 @@
 	line-height: 10px;
 }
 
+body {
+	/* background-color: #2f3b44 */
+}
+
+.pdf-container {
+	margin-top: 30px;
+	width: 900px;
+	margin-inline: auto;
+	-webkit-box-shadow: 0px 10px 13px -7px #000000, 6px 7px 21px 5px rgba(0,0,0,0.44); 
+	box-shadow: 0px 10px 13px -7px #000000, 6px 7px 21px 5px rgba(0,0,0,0.44);
+}
+
+.container {
+	margin-inline: auto;
+
+}
