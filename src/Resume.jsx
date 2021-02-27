@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { BiCloudDownload } from 'react-icons/bi';
 import { Document, Page } from 'react-pdf';
-import pdf from './ashik_shezan_resume_v2.pdf'
+import pdf from './resume.pdf'
 
 
 function Resume() {
@@ -16,7 +16,7 @@ function Resume() {
         <>
             <nav>
                 <div>
-                    <a href={pdf} download="ashik_shezan_resume.pdf">Download</a>
+                    <a href={pdf} download={pdf}>Download</a>
                 </div>
             </nav>
             <div className="pdf-container">
